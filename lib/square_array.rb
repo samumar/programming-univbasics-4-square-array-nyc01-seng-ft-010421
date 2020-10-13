@@ -3,4 +3,6 @@ def square_array(array)
   while count < array.length
     array.push(array.index ** 2) 
     count += 1 
+    
+    array
 end
