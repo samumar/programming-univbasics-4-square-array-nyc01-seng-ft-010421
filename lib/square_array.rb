@@ -1,7 +1,8 @@
-def square_array(numbers)
-  count = 0
-  while count < numbers.length do
-    numbers.index ** 2 
-  end
-  square_array(numbers)
+def square_array(array)
+  count = 0 
+  while count < array.length do
+    array[count] ** 2 
+    count += 1 
 end 
+    square_array(array)
+end
